@@ -2,6 +2,6 @@ import express from "express";
 
 export const server = express();
 
-server.get("/", (req, res) => {
-    res.send("Olá dev");
+server.get("/", (_, res) => {
+  res.send("Olá dev");
 });
